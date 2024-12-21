@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextView hiển thị câu hỏi -->
+    <TextView
+        android:id="@+id/textViewQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question will appear here"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <!-- EditText cho phép người dùng nhập câu trả lời -->
+    <EditText
+        android:id="@+id/editTextAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập câu trả lời"
+        android:padding="8dp"
+        android:textSize="18sp" />
+
+    <!-- Button để người dùng kiểm tra câu trả lời -->
+    <Button
+        android:id="@+id/buttonCheckAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kiểm tra câu trả lời"
+        android:layout_marginTop="16dp" />
+
+    <!-- Button bỏ qua, nếu người dùng muốn bỏ qua câu hỏi -->
+    <Button
+        android:id="@+id/buttonSkip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bỏ qua"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
